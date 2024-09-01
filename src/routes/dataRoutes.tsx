@@ -1,7 +1,7 @@
 import { createFileRoute } from '@tanstack/react-router';
-import DataDisplay from '../components/DataDisplay'; // Adjust the import path as needed
+import DataDisplay from '../components/DataDisplay'; 
 
-// Define a dynamic route for data endpoints
+
 export const Route = createFileRoute('/dataRoutes')({
   component: DataDisplay,
 });
