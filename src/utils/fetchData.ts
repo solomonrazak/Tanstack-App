@@ -27,13 +27,13 @@ export const fetchData = async (endpoint: Endpoint): Promise<FetchResponse> => {
     let url: string;
     switch (endpoint) {
       case "ip":
-        url = "http://ip.jsontest.com/";
+        url = "https://ip.jsontest.com/";
         break;
       case "date":
-        url = "http://date.jsontest.com/";
+        url = "https://date.jsontest.com/";
         break;
       case "time":
-        url = "http://time.jsontest.com/";
+        url = "https://time.jsontest.com/";
         break;
       default:
         throw new Error("Invalid endpoint");
